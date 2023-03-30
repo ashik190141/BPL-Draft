@@ -1,0 +1,19 @@
+.navImg{
+    width: 100px;
+    height: 50px;
+}
+.header{
+    background-color: rgb(19, 11, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
