@@ -3,6 +3,7 @@ import './CricketerCart.css';
 
 const CricketerCart = (proms) => {
     const { picture, name, job, price, about } = proms.cricketer;
+    const selected = proms.selected;
     return (
         <div className='details'>
             <img src={picture} alt="" />
@@ -12,7 +13,7 @@ const CricketerCart = (proms) => {
                 <h2>Price: ${price}</h2>
                 <p>{about}</p>
             </div>
-            <button className='btn'>Selected</button>
+            <button onClick={()=>selected(proms.cricketer)} className='btn'>Selected</button>
         </div>
     );
 };

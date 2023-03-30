@@ -1,0 +1,11 @@
+.teamTitle {
+    text-align: center;
+    margin-top: 30px;
+}
+.team{
+    position: sticky;
+    top: 0;
+}
+.playersName{
+    padding-left: 30px;
+}
